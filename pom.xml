@@ -10,6 +10,7 @@
 
     <dependencies>
 
+        <!--lombok工具-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -17,12 +18,14 @@
             <scope>provided</scope>
         </dependency>
 
+        <!--google 工具集-->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>19.0</version>
         </dependency>
 
+        <!--junit 测试-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -30,7 +33,12 @@
             <scope>test</scope>
         </dependency>
 
-
+        <!--无锁框架-->
+        <dependency>
+            <groupId>com.lmax</groupId>
+            <artifactId>disruptor</artifactId>
+            <version>3.3.2</version>
+        </dependency>
     </dependencies>
 
     <build>
